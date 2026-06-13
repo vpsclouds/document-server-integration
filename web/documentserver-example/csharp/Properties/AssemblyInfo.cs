@@ -5,9 +5,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("OnlineEditorsExample")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Ascensio System SIA")]
+[assembly: AssemblyCompany("HuyMin")]
 [assembly: AssemblyProduct("OnlineEditorsExample")]
-[assembly: AssemblyCopyright("Ascensio System SIA 2026")]
+[assembly: AssemblyCopyright("HuyMin 2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

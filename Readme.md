@@ -1,4 +1,4 @@
-## Integration examples
+﻿## Integration examples
 
 These test examples are simple document management systems that can be built into your application for testing.
 Do NOT use these integration examples on your own server without proper code modifications.
@@ -8,16 +8,16 @@ These examples show how to integrate [VN Office Docs][1] into your own website o
 The package contains examples written in .Net (C# MVC), .Net (C#), Go, Java, Java Spring, Node.js, PHP, PHP (Laravel), Python, and Ruby.
 
 You should change `http://documentserver` to your server address in these files:
-* [.Net (C# MVC)](https://github.com/vpsclouds/document-server-integration/tree/main/web/documentserver-example/csharp-mvc) - `web/documentserver-example/csharp-mvc/web.appsettings.config`
-* [.Net (C#)](https://github.com/vpsclouds/document-server-integration/tree/main/web/documentserver-example/csharp) - `web/documentserver-example/csharp/settings.config`
-* [Go](https://github.com/vpsclouds/document-server-integration/tree/main/web/documentserver-example/go) - `web/documentserver-example/go/config/configuration.json`
-* [Java](https://github.com/vpsclouds/document-server-integration/tree/main/web/documentserver-example/java) - `web/documentserver-example/java/src/main/resources/settings.properties`
-* [Java Spring](https://github.com/vpsclouds/document-server-integration/tree/main/web/documentserver-example/java-spring) - `web/documentserver-example/java-spring/src/main/resources/application.properties`
-* [Node.js](https://github.com/vpsclouds/document-server-integration/tree/main/web/documentserver-example/nodejs) - `web/documentserver-example/nodejs/config/default.json`
-* [PHP](https://github.com/vpsclouds/document-server-integration/tree/main/web/documentserver-example/php) - `web/documentserver-example/php/src/configuration/ConfigurationManager.php`
-* [PHP (Laravel)](https://github.com/vpsclouds/document-server-integration/tree/main/web/documentserver-example/php-laravel) - `web/documentserver-example/php-laravel/.env.example`
-* [Python](https://github.com/vpsclouds/document-server-integration/tree/main/web/documentserver-example/python) - `web/documentserver-example/python/src/configuration/configuration.py`
-* [Ruby](https://github.com/vpsclouds/document-server-integration/tree/main/web/documentserver-example/ruby) - `web/documentserver-example/ruby/app/configuration/configuration.rb`
+* [.Net (C# MVC)](https://github.com/huyminvo/VN-Office) - `web/documentserver-example/csharp-mvc/web.appsettings.config`
+* [.Net (C#)](https://github.com/huyminvo/VN-Office) - `web/documentserver-example/csharp/settings.config`
+* [Go](https://github.com/huyminvo/VN-Office) - `web/documentserver-example/go/config/configuration.json`
+* [Java](https://github.com/huyminvo/VN-Office) - `web/documentserver-example/java/src/main/resources/settings.properties`
+* [Java Spring](https://github.com/huyminvo/VN-Office) - `web/documentserver-example/java-spring/src/main/resources/application.properties`
+* [Node.js](https://github.com/huyminvo/VN-Office) - `web/documentserver-example/nodejs/config/default.json`
+* [PHP](https://github.com/huyminvo/VN-Office) - `web/documentserver-example/php/src/configuration/ConfigurationManager.php`
+* [PHP (Laravel)](https://github.com/huyminvo/VN-Office) - `web/documentserver-example/php-laravel/.env.example`
+* [Python](https://github.com/huyminvo/VN-Office) - `web/documentserver-example/python/src/configuration/configuration.py`
+* [Ruby](https://github.com/huyminvo/VN-Office) - `web/documentserver-example/ruby/app/configuration/configuration.rb`
 
 ## Quick Start - minimal Docker test environment
 
@@ -114,3 +114,5 @@ The methods described below are available for all of the test examples.
 ### GET `/files/file/{fileId}`
 
 Further API details are available in the example source tree.
+
+
