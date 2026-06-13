@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * (c) Copyright Ascensio System SIA 2026
  *
@@ -24,7 +24,7 @@
     <meta name="viewport" content="width=device-width" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="server-version" content="{{ env('DOCUMENT_SERVER_VERSION') }}">
-    <title>Euro-Office Document editors</title>
+    <title>VN Office Document editors</title>
 
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
 
@@ -278,8 +278,8 @@
                                 </div>
                                 @endif
                                 <div id="portal-info" @if ($files) style="display: none" @endif>
-                                    <span class="portal-name">Welcome to Euro-Office Docs!</span>
-                                    <span class="portal-descr">Get started with a live demo of Euro-Office Docs, a powerful open-source office suite for your browser.</span>
+                                    <span class="portal-name">Welcome to VN Office Docs!</span>
+                                    <span class="portal-descr">Get started with a live demo of VN Office Docs, a powerful open-source office suite for your browser.</span>
                                     <span class="portal-descr">
                                         You can test editing features in real-time and explore multi-user collaboration:
                                         <ul>
@@ -289,7 +289,7 @@
                                             <li>Try real-time collaboration by opening the same document using different users in different Web browser sessions</li>
                                         </ul>
                                     </span>
-                                    <span class="portal-descr">⚠️ This example is intended for testing purposes only. Do not use it on a production server without proper code modifications. If you have enabled this test demo, please disable it before deploying the editors in production.</span>
+                                    <span class="portal-descr">âš ï¸ This example is intended for testing purposes only. Do not use it on a production server without proper code modifications. If you have enabled this test demo, please disable it before deploying the editors in production.</span>
                                     @foreach ($users as $user)
                                     <div class="user-descr">
                                         <b>{{ $user['name'] ?? 'Anonymous' }}</b>

@@ -1,4 +1,4 @@
-<%@page import="entities.FileModel"%>
+﻿<%@page import="entities.FileModel"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 <% FileModel Model = (FileModel) request.getAttribute("file"); %>
@@ -27,7 +27,7 @@
         * limitations under the License.
         *
         -->
-        <title><%= Model.getDocument().getTitle() %> - Euro-Office</title>
+        <title><%= Model.getDocument().getTitle() %> - VN Office</title>
         <link rel="icon" href="css/img/<%= Model.getDocumentType() %>.ico" type="image/x-icon" />
         <link rel="stylesheet" type="text/css" href="css/editor.css" />
 
@@ -108,13 +108,13 @@
         // the meta information of the document is changed via the meta command
         var onMetaChange = function (event) {
             if (event.data.title !== undefined) {
-                document.title = event.data.title + " - Euro-Office";
+                document.title = event.data.title + " - VN Office";
             }
 
             if (event.data.favorite !== undefined) {
                 var favorite = !!event.data.favorite;
-                var title = document.title.replace(/^\☆/g, "");
-                document.title = (favorite ? "☆" : "") + title;
+                var title = document.title.replace(/^\â˜†/g, "");
+                document.title = (favorite ? "â˜†" : "") + title;
                 docEditor.setFavorite(favorite);  // change the Favorite icon state
             }
 
@@ -473,3 +473,4 @@
         </div>
     </body>
 </html>
+

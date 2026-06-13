@@ -1,9 +1,10 @@
-{
+﻿{
   "server": {
-    "appName": "Euro-Office",
+    "appName": "VN Office",
     "siteUrl": "/",
     "maxFileSize": 104857600,
-    "storageFolder": "/var/lib/euro-office/documentserver-example/files",
+    "storageFolder": "/var/lib/VN Office/documentserver-example/files",
     "enableForgotten": false
   }
 }
+

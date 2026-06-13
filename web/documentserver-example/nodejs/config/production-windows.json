@@ -1,8 +1,9 @@
-{
+﻿{
   "server": {
-    "appName": "Euro-Office",
+    "appName": "VN Office",
     "siteUrl": "/",
     "maxFileSize": 104857600,
     "enableForgotten": false
   }
 }
+

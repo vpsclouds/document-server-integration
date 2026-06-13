@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -7,7 +7,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="mobile-web-app-capable" content="yes" />
     <link rel="icon" href="assets/images/{docType}.ico" type="image/x-icon" />
-    <title>{fileName} - Euro-Office</title>
+    <title>{fileName} - VN Office</title>
 
     <style>
         html {
@@ -218,13 +218,13 @@
         // the meta information of the document is changed via the meta command
         var onMetaChange = function (event) {
             if (event.data.title !== undefined) {
-                document.title = event.data.title + " - Euro-Office";
+                document.title = event.data.title + " - VN Office";
             }
 
             if (event.data.favorite !== undefined) {
                 var favorite = !!event.data.favorite;
-                var title = document.title.replace(/^\☆/g, "");
-                document.title = (favorite ? "☆" : "") + title;
+                var title = document.title.replace(/^\â˜†/g, "");
+                document.title = (favorite ? "â˜†" : "") + title;
                 docEditor.setFavorite(favorite);  // change the Favorite icon state
             }
 
@@ -470,3 +470,4 @@
     </form>
 </body>
 </html>
+

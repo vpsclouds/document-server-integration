@@ -1,4 +1,4 @@
-<!--*
+﻿<!--*
  *
  * (c) Copyright Ascensio System SIA 2026
  *
@@ -26,7 +26,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="mobile-web-app-capable" content="yes" />
-    <title>{{ fileName }} - Euro-Office</title>
+    <title>{{ fileName }} - VN Office</title>
     <link rel="icon"
         href="{% static 'images/'|add:fileType|add:'.ico' %}"
         type="image/x-icon" />
@@ -114,13 +114,13 @@
         // the meta information of the document is changed via the meta command
         var onMetaChange = function (event) {
             if (event.data.title !== undefined) {
-                document.title = event.data.title + " - Euro-Office";
+                document.title = event.data.title + " - VN Office";
             }
 
             if (event.data.favorite !== undefined) {
                 var favorite = !!event.data.favorite;
-                var title = document.title.replace(/^\☆/g, "");
-                document.title = (favorite ? "☆" : "") + title;
+                var title = document.title.replace(/^\â˜†/g, "");
+                document.title = (favorite ? "â˜†" : "") + title;
                 docEditor.setFavorite(favorite);  // change the Favorite icon state
             }
 
@@ -479,3 +479,4 @@
     </script>
 </body>
 </html>
+

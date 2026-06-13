@@ -1,6 +1,6 @@
-{
+﻿{
   "server": {
-    "appName": "Euro-Office",
+    "appName": "VN Office",
     "siteUrl": "/",
     "exampleUrl": "http://localhost/example",
     "token": {
@@ -8,3 +8,4 @@
     }
   }
 }
+

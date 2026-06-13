@@ -1,4 +1,4 @@
-<%@page import="helpers.DocumentManager"%>
+﻿<%@page import="helpers.DocumentManager"%>
 <%@page import="helpers.FileUtility"%>
 <%@page import="helpers.ConfigManager"%>
 <%@page import="java.util.Calendar"%>
@@ -153,8 +153,8 @@
                                     <% } %>
                                 </menu>
                                 <div id="portal-info" style="display: <%= files.length > 0 ? "none" : "table-cell" %>">
-                                    <span class="portal-name">Welcome to Euro-Office Docs!</span>
-                                    <span class="portal-descr">Get started with a live demo of Euro-Office Docs, a powerful open-source office suite for your browser.</span>
+                                    <span class="portal-name">Welcome to VN Office Docs!</span>
+                                    <span class="portal-descr">Get started with a live demo of VN Office Docs, a powerful open-source office suite for your browser.</span>
                                     <span class="portal-descr">
                                         You can test editing features in real-time and explore multi-user collaboration:
                                         <ul>
@@ -164,7 +164,7 @@
                                             <li>Try real-time collaboration by opening the same document using different users in different Web browser sessions</li>
                                         </ul>
                                     </span>
-                                    <span class="portal-descr">⚠️ This example is intended for testing purposes only. Do not use it on a production server without proper code modifications. If you have enabled this test demo, please disable it before deploying the editors in production.</span>
+                                    <span class="portal-descr">âš ï¸ This example is intended for testing purposes only. Do not use it on a production server without proper code modifications. If you have enabled this test demo, please disable it before deploying the editors in production.</span>
                                     <% for (User user : Users.getAllUsers()) { %>
                                         <div class="user-descr" onclick="toggleUserDescr(event)">
                                             <b><%= user.getName() == null ? "Anonymous" : user.getName() %></b>
@@ -469,3 +469,4 @@
         </script>
     </body>
 </html>
+

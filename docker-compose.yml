@@ -1,4 +1,4 @@
-# -----------------------------------------------------------------------------
+﻿# -----------------------------------------------------------------------------
 # Minimal DocumentServer Test Setup
 # -----------------------------------------------------------------------------
 #
@@ -9,7 +9,7 @@
 #     make build-image
 #
 # This command builds the image:
-#     euro-office/documentserver:latest
+#     VN Office/documentserver:latest
 #
 # -----------------------------------------------------------------------------
 # Starting the services
@@ -42,7 +42,7 @@ name: minimal-documentserver-test
 
 services:
   documentserver:
-    image: ghcr.io/euro-office/documentserver:latest
+    image: ghcr.io/VN Office/documentserver:latest
     environment:
       EXAMPLE_ENABLED: "true"
       JWT_SECRET: "secret"

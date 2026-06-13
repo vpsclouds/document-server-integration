@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="server-version" content="{serverVersion}">
-    <title>Euro-Office Document editors</title>
+    <title>VN Office Document editors</title>
 
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
 
@@ -127,8 +127,8 @@
                             {forgottenLink}
                         </menu>
                         <div id="portal-info" style="display: {portalInfoDisplay}">
-                            <span class="portal-name">Welcome to Euro-Office Docs!</span>
-                            <span class="portal-descr">Get started with a live demo of Euro-Office Docs, a powerful open-source office suite for your browser.</span>
+                            <span class="portal-name">Welcome to VN Office Docs!</span>
+                            <span class="portal-descr">Get started with a live demo of VN Office Docs, a powerful open-source office suite for your browser.</span>
                             <span class="portal-descr">
                                 You can test editing features in real-time and explore multi-user collaboration:
                                 <ul>
@@ -138,7 +138,7 @@
                                     <li>Try real-time collaboration by opening the same document using different users in different Web browser sessions</li>
                                 </ul>
                             </span>
-                            <span class="portal-descr">⚠️ This example is intended for testing purposes only. Do not use it on a production server without proper code modifications. If you have enabled this test demo, please disable it before deploying the editors in production.</span>
+                            <span class="portal-descr">âš ï¸ This example is intended for testing purposes only. Do not use it on a production server without proper code modifications. If you have enabled this test demo, please disable it before deploying the editors in production.</span>
                             {userDescr}
                             </div>
                             {storedList}
